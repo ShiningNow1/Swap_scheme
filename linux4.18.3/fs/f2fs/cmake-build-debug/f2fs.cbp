@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="f2fs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="f2fs">
+				<Option output="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/f2fs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 f2fs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="f2fs/fast">
+				<Option output="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/f2fs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 f2fs/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/acl.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/acl.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/checkpoint.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/data.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/debug.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/dir.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/extent_cache.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/f2fs.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/file.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/gc.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/gc.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/gc_nvm.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/hash.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/inline.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/inode.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/namei.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/node.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/node.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/nvm.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/nvm.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/recovery.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/segment.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/segment.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/shrinker.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/super.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/sysfs.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/trace.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/trace.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/xattr.c">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/xattr.h">
+			<Option target="f2fs"/>
+		</Unit>
+		<Unit filename="/home/cxy/hybridStorage/linux4.18.3/fs/f2fs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
